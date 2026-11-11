@@ -1,0 +1,570 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "ranks": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "seeds_direncanakan": [
+    42,
+    123,
+    2026
+  ],
+  "seeds_selesai": [
+    42,
+    123,
+    2026
+  ],
+  "toleransi": 0.01,
+  "macro_f1_terbaik_validasi": 0.8543927395933849,
+  "rank_terpilih_sementara": 32,
+  "jumlah_data": {
+    "latih": 2000,
+    "validasi": 1260,
+    "uji": 500
+  },
+  "distribusi_latih": {
+    "positive": 1168,
+    "negative": 624,
+    "neutral": 208
+  },
+  "per_rank": [
+    {
+      "rank": 4,
+      "jumlah_run_ok": 3,
+      "jumlah_seed_direncanakan": 3,
+      "macro_f1_validasi_mean": 0.815881674647316,
+      "macro_f1_validasi_sd": 0.014145000532280353,
+      "f1_negatif_mean": 0.848587231845189,
+      "f1_negatif_sd": 0.006617366081530022,
+      "f1_netral_mean": 0.6736637678675977,
+      "f1_netral_sd": 0.03256970020248918,
+      "f1_positif_mean": 0.9253940242291613,
+      "f1_positif_sd": 0.0038781387297759772,
+      "parameter_terlatih_mean": 270336.0,
+      "parameter_terlatih_sd": 0.0,
+      "peak_allocated_mib_mean": 1386.1787109375,
+      "peak_allocated_mib_sd": 0.0,
+      "peak_reserved_mib_mean": 3284.6666666666665,
+      "peak_reserved_mib_sd": 453.53867898265673,
+      "waktu_pelatihan_detik_mean": 1489.7361885333278,
+      "waktu_pelatihan_detik_sd": 46.35840622216657,
+      "ukuran_adaptor_mib_mean": 1.0491199493408203,
+      "ukuran_adaptor_mib_sd": 0.0,
+      "selisih_f1_dari_terbaik": 0.03851106494606893
+    },
+    {
+      "rank": 8,
+      "jumlah_run_ok": 3,
+      "jumlah_seed_direncanakan": 3,
+      "macro_f1_validasi_mean": 0.8351940883275928,
+      "macro_f1_validasi_sd": 0.0013518449755522454,
+      "f1_negatif_mean": 0.8556456235159257,
+      "f1_negatif_sd": 0.003665723211023863,
+      "f1_netral_mean": 0.7216827526110818,
+      "f1_netral_sd": 0.00809365550175533,
+      "f1_positif_mean": 0.9282538888557711,
+      "f1_positif_sd": 0.0005115728782767166,
+      "parameter_terlatih_mean": 540672.0,
+      "parameter_terlatih_sd": 0.0,
+      "peak_allocated_mib_mean": 1387.4228515625,
+      "peak_allocated_mib_sd": 0.0,
+      "peak_reserved_mib_mean": 3286.6666666666665,
+      "peak_reserved_mib_sd": 453.53867898265673,
+      "waktu_pelatihan_detik_mean": 1501.5009662333323,
+      "waktu_pelatihan_detik_sd": 14.03556697868457,
+      "ukuran_adaptor_mib_mean": 2.0804624557495117,
+      "ukuran_adaptor_mib_sd": 0.0,
+      "selisih_f1_dari_terbaik": 0.01919865126579212
+    },
+    {
+      "rank": 16,
+      "jumlah_run_ok": 3,
+      "jumlah_seed_direncanakan": 3,
+      "macro_f1_validasi_mean": 0.84040729772752,
+      "macro_f1_validasi_sd": 0.005373586266234654,
+      "f1_negatif_mean": 0.8596783792500732,
+      "f1_negatif_sd": 0.0008034434039293764,
+      "f1_netral_mean": 0.7314560638869239,
+      "f1_netral_sd": 0.015136324624108646,
+      "f1_positif_mean": 0.9300874500455629,
+      "f1_positif_sd": 0.0023522250505450346,
+      "parameter_terlatih_mean": 1081344.0,
+      "parameter_terlatih_sd": 0.0,
+      "peak_allocated_mib_mean": 1392.7197265625,
+      "peak_allocated_mib_sd": 0.0,
+      "peak_reserved_mib_mean": 3292.6666666666665,
+      "peak_reserved_mib_sd": 453.53867898265673,
+      "waktu_pelatihan_detik_mean": 1513.55985819999,
+      "waktu_pelatihan_detik_sd": 14.565850114713877,
+      "ukuran_adaptor_mib_mean": 4.143100738525391,
+      "ukuran_adaptor_mib_sd": 0.0,
+      "selisih_f1_dari_terbaik": 0.013985441865864923
+    },
+    {
+      "rank": 32,
+      "jumlah_run_ok": 3,
+      "jumlah_seed_direncanakan": 3,
+      "macro_f1_validasi_mean": 0.8543927395933849,
+      "macro_f1_validasi_sd": 0.005259600142667668,
+      "f1_negatif_mean": 0.8677602619208459,
+      "f1_negatif_sd": 0.0018390271141220296,
+      "f1_netral_mean": 0.7619978991066003,
+      "f1_netral_sd": 0.0146495423499158,
+      "f1_positif_mean": 0.9334200577527083,
+      "f1_positif_sd": 0.0018650239517349282,
+      "parameter_terlatih_mean": 2162688.0,
+      "parameter_terlatih_sd": 0.0,
+      "peak_allocated_mib_mean": 1402.7744140625,
+      "peak_allocated_mib_sd": 0.0,
+      "peak_reserved_mib_mean": 3302.6666666666665,
+      "peak_reserved_mib_sd": 453.53867898265673,
+      "waktu_pelatihan_detik_mean": 1498.5543282333335,
+      "waktu_pelatihan_detik_sd": 35.41476491885482,
+      "ukuran_adaptor_mib_mean": 8.268123626708984,
+      "ukuran_adaptor_mib_sd": 0.0,
+      "selisih_f1_dari_terbaik": 0.0
+    }
+  ],
+  "per_seed": [
+    {
+      "rank": 4,
+      "seed": 42,
+      "status": "ok",
+      "macro_f1_validasi": 0.812045490824845,
+      "parameter_terlatih": 270336,
+      "peak_allocated_mib": 1386.1787109375,
+      "peak_reserved_mib": 2806.0,
+      "waktu_pelatihan_detik": 1446.5051402999961,
+      "ukuran_adaptor_mib": 1.0491199493408203,
+      "langkah": 375,
+      "f1_negatif": 0.847255369928401,
+      "f1_netral": 0.6666666666666666,
+      "f1_positif": 0.9222144358794674,
+      "confusion_matrix": [
+        [
+          355,
+          17,
+          22
+        ],
+        [
+          34,
+          85,
+          12
+        ],
+        [
+          55,
+          22,
+          658
+        ]
+      ],
+      "loss_akhir": 0.09628729202268005,
+      "loss_rata2_10": 0.11964395146187598,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 4,
+      "seed": 123,
+      "status": "ok",
+      "macro_f1_validasi": 0.8040504462001349,
+      "parameter_terlatih": 270336,
+      "peak_allocated_mib": 1386.1787109375,
+      "peak_reserved_mib": 3708.0,
+      "waktu_pelatihan_detik": 1538.690497899981,
+      "ukuran_adaptor_mib": 1.0491199493408203,
+      "langkah": 375,
+      "f1_negatif": 0.8427370948379351,
+      "f1_netral": 0.6451612903225806,
+      "f1_positif": 0.9242529534398888,
+      "confusion_matrix": [
+        [
+          351,
+          18,
+          25
+        ],
+        [
+          37,
+          80,
+          14
+        ],
+        [
+          51,
+          19,
+          665
+        ]
+      ],
+      "loss_akhir": 0.05526651924355974,
+      "loss_rata2_10": 0.13587801465328084,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 4,
+      "seed": 2026,
+      "status": "ok",
+      "macro_f1_validasi": 0.8315490869169682,
+      "parameter_terlatih": 270336,
+      "peak_allocated_mib": 1386.1787109375,
+      "peak_reserved_mib": 3340.0,
+      "waktu_pelatihan_detik": 1484.0129274000064,
+      "ukuran_adaptor_mib": 1.0491199493408203,
+      "langkah": 375,
+      "f1_negatif": 0.8557692307692307,
+      "f1_netral": 0.7091633466135459,
+      "f1_positif": 0.929714683368128,
+      "confusion_matrix": [
+        [
+          356,
+          17,
+          21
+        ],
+        [
+          29,
+          89,
+          13
+        ],
+        [
+          53,
+          14,
+          668
+        ]
+      ],
+      "loss_akhir": 0.013006478826355306,
+      "loss_rata2_10": 0.10375434464003774,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 8,
+      "seed": 42,
+      "status": "ok",
+      "macro_f1_validasi": 0.8358071227726125,
+      "parameter_terlatih": 540672,
+      "peak_allocated_mib": 1387.4228515625,
+      "peak_reserved_mib": 2808.0,
+      "waktu_pelatihan_detik": 1500.9137123999972,
+      "ukuran_adaptor_mib": 2.0804624557495117,
+      "langkah": 375,
+      "f1_negatif": 0.855072463768116,
+      "f1_netral": 0.7245283018867924,
+      "f1_positif": 0.9278206026629292,
+      "confusion_matrix": [
+        [
+          354,
+          17,
+          23
+        ],
+        [
+          28,
+          96,
+          7
+        ],
+        [
+          52,
+          21,
+          662
+        ]
+      ],
+      "loss_akhir": 0.10655622315880464,
+      "loss_rata2_10": 0.08528715904435558,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 8,
+      "seed": 123,
+      "status": "ok",
+      "macro_f1_validasi": 0.8361308033500158,
+      "parameter_terlatih": 540672,
+      "peak_allocated_mib": 1387.4228515625,
+      "peak_reserved_mib": 3710.0,
+      "waktu_pelatihan_detik": 1515.8209429999988,
+      "ukuran_adaptor_mib": 2.0804624557495117,
+      "langkah": 375,
+      "f1_negatif": 0.8523002421307506,
+      "f1_netral": 0.7279693486590039,
+      "f1_positif": 0.928122819260293,
+      "confusion_matrix": [
+        [
+          352,
+          17,
+          25
+        ],
+        [
+          28,
+          95,
+          8
+        ],
+        [
+          52,
+          18,
+          665
+        ]
+      ],
+      "loss_akhir": 0.037370022908362444,
+      "loss_rata2_10": 0.12644036720403165,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 8,
+      "seed": 2026,
+      "status": "ok",
+      "macro_f1_validasi": 0.8336443388601503,
+      "parameter_terlatih": 540672,
+      "peak_allocated_mib": 1387.4228515625,
+      "peak_reserved_mib": 3342.0,
+      "waktu_pelatihan_detik": 1487.768243300001,
+      "ukuran_adaptor_mib": 2.0804624557495117,
+      "langkah": 375,
+      "f1_negatif": 0.8595641646489104,
+      "f1_netral": 0.7125506072874493,
+      "f1_positif": 0.9288182446440912,
+      "confusion_matrix": [
+        [
+          355,
+          14,
+          25
+        ],
+        [
+          28,
+          88,
+          15
+        ],
+        [
+          49,
+          14,
+          672
+        ]
+      ],
+      "loss_akhir": 0.008061791872023605,
+      "loss_rata2_10": 0.07980026951936452,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 16,
+      "seed": 42,
+      "status": "ok",
+      "macro_f1_validasi": 0.8386836673375413,
+      "parameter_terlatih": 1081344,
+      "peak_allocated_mib": 1392.7197265625,
+      "peak_reserved_mib": 2814.0,
+      "waktu_pelatihan_detik": 1521.2842633999971,
+      "ukuran_adaptor_mib": 4.143100738525391,
+      "langkah": 375,
+      "f1_negatif": 0.8606060606060606,
+      "f1_netral": 0.7279693486590039,
+      "f1_positif": 0.9274755927475593,
+      "confusion_matrix": [
+        [
+          355,
+          14,
+          25
+        ],
+        [
+          27,
+          95,
+          9
+        ],
+        [
+          49,
+          21,
+          665
+        ]
+      ],
+      "loss_akhir": 0.09239971474721642,
+      "loss_rata2_10": 0.05890467267640816,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 16,
+      "seed": 123,
+      "status": "ok",
+      "macro_f1_validasi": 0.8464312106617741,
+      "parameter_terlatih": 1081344,
+      "peak_allocated_mib": 1392.7197265625,
+      "peak_reserved_mib": 3716.0,
+      "waktu_pelatihan_detik": 1522.6365180999856,
+      "ukuran_adaptor_mib": 4.143100738525391,
+      "langkah": 375,
+      "f1_negatif": 0.8592233009708737,
+      "f1_netral": 0.7480314960629921,
+      "f1_positif": 0.9320388349514563,
+      "confusion_matrix": [
+        [
+          354,
+          17,
+          23
+        ],
+        [
+          24,
+          95,
+          12
+        ],
+        [
+          52,
+          11,
+          672
+        ]
+      ],
+      "loss_akhir": 0.041967419267166406,
+      "loss_rata2_10": 0.09332995170761933,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 16,
+      "seed": 2026,
+      "status": "ok",
+      "macro_f1_validasi": 0.8361070151832446,
+      "parameter_terlatih": 1081344,
+      "peak_allocated_mib": 1392.7197265625,
+      "peak_reserved_mib": 3348.0,
+      "waktu_pelatihan_detik": 1496.758793099987,
+      "ukuran_adaptor_mib": 4.143100738525391,
+      "langkah": 375,
+      "f1_negatif": 0.8592057761732852,
+      "f1_netral": 0.7183673469387755,
+      "f1_positif": 0.9307479224376731,
+      "confusion_matrix": [
+        [
+          357,
+          14,
+          23
+        ],
+        [
+          29,
+          88,
+          14
+        ],
+        [
+          51,
+          12,
+          672
+        ]
+      ],
+      "loss_akhir": 0.003950840057768801,
+      "loss_rata2_10": 0.06353055588965617,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 32,
+      "seed": 42,
+      "status": "ok",
+      "macro_f1_validasi": 0.8561436326667495,
+      "parameter_terlatih": 2162688,
+      "peak_allocated_mib": 1402.7744140625,
+      "peak_reserved_mib": 2824.0,
+      "waktu_pelatihan_detik": 1533.226094499987,
+      "ukuran_adaptor_mib": 8.268123626708984,
+      "langkah": 375,
+      "f1_negatif": 0.8673218673218673,
+      "f1_netral": 0.769811320754717,
+      "f1_positif": 0.9312977099236641,
+      "confusion_matrix": [
+        [
+          353,
+          15,
+          26
+        ],
+        [
+          20,
+          102,
+          9
+        ],
+        [
+          47,
+          17,
+          671
+        ]
+      ],
+      "loss_akhir": 0.10821302784825093,
+      "loss_rata2_10": 0.048068898628866916,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 32,
+      "seed": 123,
+      "status": "ok",
+      "macro_f1_validasi": 0.8484810073474737,
+      "parameter_terlatih": 2162688,
+      "peak_allocated_mib": 1402.7744140625,
+      "peak_reserved_mib": 3726.0,
+      "waktu_pelatihan_detik": 1462.4406113000005,
+      "ukuran_adaptor_mib": 8.268123626708984,
+      "langkah": 375,
+      "f1_negatif": 0.8661800486618005,
+      "f1_netral": 0.7450980392156863,
+      "f1_positif": 0.9341649341649342,
+      "confusion_matrix": [
+        [
+          356,
+          17,
+          21
+        ],
+        [
+          23,
+          95,
+          13
+        ],
+        [
+          49,
+          12,
+          674
+        ]
+      ],
+      "loss_akhir": 0.0009371551755066321,
+      "loss_rata2_10": 0.08721741901217683,
+      "train_terpotong": 0.0
+    },
+    {
+      "rank": 32,
+      "seed": 2026,
+      "status": "ok",
+      "macro_f1_validasi": 0.8585535787659313,
+      "parameter_terlatih": 2162688,
+      "peak_allocated_mib": 1402.7744140625,
+      "peak_reserved_mib": 3358.0,
+      "waktu_pelatihan_detik": 1499.9962789000128,
+      "ukuran_adaptor_mib": 8.268123626708984,
+      "langkah": 375,
+      "f1_negatif": 0.8697788697788698,
+      "f1_netral": 0.7710843373493976,
+      "f1_positif": 0.9347975291695264,
+      "confusion_matrix": [
+        [
+          354,
+          12,
+          28
+        ],
+        [
+          22,
+          96,
+          13
+        ],
+        [
+          44,
+          10,
+          681
+        ]
+      ],
+      "loss_akhir": 0.00957870406227812,
+      "loss_rata2_10": 0.04782442452021769,
+      "train_terpotong": 0.0
+    }
+  ],
+  "tambahan_r64": {
+    "jumlah_seed": 3,
+    "seed": [
+      123,
+      2026,
+      42
+    ],
+    "macro_f1_mean": 0.8647567756502018,
+    "macro_f1_sd": 0.007894867651288655,
+    "f1_negatif_mean": 0.8750882322923141,
+    "f1_netral_mean": 0.7828835354405772,
+    "f1_positif_mean": 0.9362985592177143,
+    "parameter_terlatih": 4325376,
+    "peak_reserved_mib_mean": 3326.0,
+    "ukuran_adaptor_mib": 16.518216133117676,
+    "waktu_menit_mean": 24.92858918999991,
+    "selisih_dari_r32": 0.010364036056816905
+  }
+}
