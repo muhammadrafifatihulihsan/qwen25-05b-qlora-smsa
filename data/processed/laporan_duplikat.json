@@ -1,0 +1,53 @@
+{
+  "awal": {
+    "train": 11000,
+    "valid": 1260,
+    "test": 500
+  },
+  "label_map": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "distribusi_awal": {
+    "train": {
+      "positive": 6416,
+      "negative": 3436,
+      "neutral": 1148
+    },
+    "valid": {
+      "positive": 735,
+      "negative": 394,
+      "neutral": 131
+    },
+    "test": {
+      "positive": 208,
+      "negative": 204,
+      "neutral": 88
+    }
+  },
+  "duplikat_dalam": {
+    "train": 67,
+    "valid": 0,
+    "test": 0
+  },
+  "grup_duplikat_latih_label_berbeda": 0,
+  "latih_dihapus_duplikat_dalam": 67,
+  "latih_dihapus_overlap_valid_test": 14,
+  "valid_dihapus_overlap_test": 0,
+  "kandidat_latih_bersih": 10919,
+  "akhir_valid": 1260,
+  "akhir_test": 500,
+  "subset_latih": 2000,
+  "distribusi_subset": {
+    "positive": 1168,
+    "negative": 624,
+    "neutral": 208
+  },
+  "hash_indeks_subset": "8a00b49816e8629556f45922ce612c0f2087982a2f511f662396af0e23366165",
+  "hash_berkas_olahan": {
+    "train": "8d8f55766fb81d977292ed21eb73703443eb6fd03ba93e7a569b3e7a47e27fd6",
+    "valid": "30d5cd4dd1d32f0d37170d0246bf0c66e82891fcd79a72c96fc89568e868654a",
+    "test": "0e6748ee616ae5e84e6215fd3756e3fd1d36ddbf0cb98fd185a36269dfd3ff05"
+  }
+}
