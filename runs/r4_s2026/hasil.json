@@ -1,0 +1,44 @@
+{
+  "rank": 4,
+  "seed": 2026,
+  "max_len": 256,
+  "pilot": false,
+  "status": "ok",
+  "train_terpotong": 0.0,
+  "parameter_terlatih": 270336,
+  "alpha": 8,
+  "memori_setelah_muat_mib": 697.76708984375,
+  "waktu_pelatihan_detik": 1484.0129274000064,
+  "peak_allocated_mib": 1386.1787109375,
+  "peak_reserved_mib": 3340.0,
+  "langkah": 375,
+  "loss_akhir": 0.013006478826355306,
+  "loss_rata2_10_terakhir": 0.10375434464003774,
+  "ukuran_adaptor_mib": 1.0491199493408203,
+  "validasi": {
+    "macro_f1": 0.8315490869169682,
+    "f1_per_kelas": [
+      0.8557692307692307,
+      0.7091633466135459,
+      0.929714683368128
+    ],
+    "confusion_matrix": [
+      [
+        356,
+        17,
+        21
+      ],
+      [
+        29,
+        89,
+        13
+      ],
+      [
+        53,
+        14,
+        668
+      ]
+    ]
+  },
+  "macro_f1_validasi": 0.8315490869169682
+}

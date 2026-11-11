@@ -1,0 +1,17 @@
+{
+  "rank": 32,
+  "seed": 42,
+  "max_len": 256,
+  "pilot": true,
+  "status": "ok",
+  "train_terpotong": 0.0,
+  "parameter_terlatih": 2162688,
+  "alpha": 64,
+  "memori_setelah_muat_mib": 704.98583984375,
+  "waktu_pelatihan_detik": 66.84463959999266,
+  "peak_allocated_mib": 1402.7744140625,
+  "peak_reserved_mib": 2824.0,
+  "langkah": 20,
+  "loss_akhir": 0.22441113711101934,
+  "loss_rata2_10_terakhir": 0.29184949181217235
+}
