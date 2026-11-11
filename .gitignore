@@ -1,0 +1,44 @@
+# lingkungan virtual
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# bobot model dan adaptor (dihasilkan ulang lewat skrip, bukan disimpan di repo)
+runs/*/adaptor/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+*.onnx
+
+# arsip dan keluaran sementara
+*.zip
+*.tar.gz
+hasil-colab.zip
+rusak/
+scratch/
+tmp/
+
+# cache dan log
+.cache/
+.hf/
+*.log
+
+# perkakas editor dan uji
+.idea/
+.vscode/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# sistem
+.DS_Store
+Thumbs.db
+desktop.ini

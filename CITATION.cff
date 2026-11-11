@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Jika memakai kode atau hasil eksperimen ini, mohon sitasi sebagaimana tercantum."
+title: "Pengaruh Rank Adaptasi terhadap Macro-F1 dan Konsumsi VRAM pada Klasifikasi Sentimen Bahasa Indonesia Menggunakan Model Bahasa Kecil Terkuantisasi"
+version: 1.0.0
+date-released: "2026-11-11"
+repository-code: "https://github.com/muhammadrafifatihulihsan/qwen25-05b-qlora-smsa"
+url: "https://github.com/muhammadrafifatihulihsan/qwen25-05b-qlora-smsa"
+authors:
+  - family-names: "Ihsan"
+    given-names: "Muhammad Rafi Fatihul"
+    affiliation: "Universitas Negeri Padang"
+    alias: "muhammadrafifatihulihsan"
+year: 2026
+type: software
+license: MIT
+keywords:
+  - klasifikasi sentimen
+  - bahasa Indonesia
+  - QLoRA
+  - LoRA rank
+  - SmSA
+  - model terkuantisasi
+  - Qwen2.5
+  - parameter-efficient fine-tuning
+abstract: >-
+  Eksperimen satu faktor pengaruh rank adaptor QLoRA (r = 4, 8, 16, 32, ditambah
+  uji tambahan r = 64) terhadap Macro-F1 validasi, F1 per kelas, puncak konsumsi
+  memori GPU, dan durasi pelatihan pada Qwen2.5-0.5B-Instruct terkuantisasi NF4
+  dengan dataset SmSA. Pelatihan dijalankan pada GPU 4 GB dengan tiga seed.
+  12 run protokol selesai; Macro-F1 validasi naik dari 0,8159 (r = 4) ke 0,8544
+  (r = 32) tanpa tanda saturasi, dan uji data uji memberi 0,8308 berbanding
+  0,2673 pada pembanding tanpa adaptasi.

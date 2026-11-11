@@ -1,0 +1,15 @@
+# Pasang PyTorch lebih dulu dari indeks CUDA resmi, karena roda CUDA tidak
+# tersedia di PyPI biasa. Contoh untuk RTX 2050 (CUDA 12.6):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+# Versi torch yang dipakai saat eksperimen: 2.14.1+cu126
+
+transformers==5.22.2
+peft==0.21.2
+bitsandbytes==0.50.2
+accelerate==1.15.0
+pandas==2.3.3
+numpy==2.4.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+huggingface-hub==2.4.0
+pyarrow==24.0.0
